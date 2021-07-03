@@ -1,3 +1,3 @@
 class Article < ApplicationRecord
-  validates :title, :source_link, presence :true
+  validates :title, :source_link, presence: :true
 end
