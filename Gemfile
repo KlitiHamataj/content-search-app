@@ -24,10 +24,7 @@ gem 'jbuilder', '~> 2.7'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
-# gem to display the reading time of an article
 gem 'readingtime', '~> 0.4.0'
-# gem to create a short version of a link
-gem 'shortener'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
