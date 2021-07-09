@@ -29,6 +29,9 @@ gem 'readingtime', '~> 0.4.0'
 # gem ransack for search
 gem 'ransack', github: 'activerecord-hackery/ransack'
 
+# shortener gem
+gem 'shortener'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 
