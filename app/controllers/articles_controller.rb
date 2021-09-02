@@ -4,7 +4,7 @@ class ArticlesController < ApplicationController
 
   def index
     @q = Article.ransack(params[:q])
-    @articles = @q.result(distinct: true).order("created_at DESC") # Search feature with ransack gem
+    @articles = set_page_and_extract_portion_from @q.result(distinct: true).order("created_at DESC"), per_page: [5] # Search feature with ransack gem
   end
 
   def show
